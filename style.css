@@ -177,7 +177,7 @@ header.site-nav{
 .btn-ghost:hover{ transform: translateY(-3px) scale(1.03); background: var(--mist); }
 
 .hero-frame{
-  position: relative; aspect-ratio: 3/4; border-radius: var(--radius-lg);
+  position: relative; aspect-ratio: 1 / 1; border-radius: var(--radius-lg);
   background: linear-gradient(150deg, var(--mist), var(--wave) 60%, var(--pink-soft));
   border: 1px solid var(--line); box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center;
