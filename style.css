@@ -204,14 +204,18 @@ header.site-nav{
 
 /* ============ Section chung ============ */
 section{ padding: 64px 0; }
-.section-head{ margin-bottom: 36px; max-width: 640px; text-align: center; }
+.section-head{ margin-bottom: 36px; width: 100%;           /* Chiếm trọn chiều ngang */
+    display: flex;         /* Sử dụng flex để quản lý các phần tử con */
+    flex-direction: column;/* Xếp chồng các phần tử theo chiều dọc */
+    align-items: center;   /* Căn giữa theo chiều ngang */
+    text-align: center; }
 .section-head .tag{
   display: inline-flex; align-items: center; gap: 8px; font-size: 0.76rem; font-weight: 700;
   color: var(--ai); background: linear-gradient(120deg, var(--mist), var(--pink-soft)); padding: 5px 14px; border-radius: 999px; margin-bottom: 12px;
   text-transform: uppercase; letter-spacing: 0.03em;
 }
 .section-head h2{ font-size: clamp(1.55rem, 3.4vw, 2.05rem); margin: 0 0 8px; text-decoration: none; }
-.section-head p{ color: var(--ink-soft); font-size: 0.97rem; line-height: 1.7; }
+.section-head p{ color: var(--ink-soft); font-size: 0.97rem; line-height: 1.7; max-width: 640px }
 
 .reveal{ opacity: 0; transform: translateY(22px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.in-view{ opacity: 1; transform: translateY(0); }
