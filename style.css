@@ -37,7 +37,7 @@ body{
 }
 
 h1, h2, h3, .display{ font-family: 'Noto Serif', Georgia, serif; font-weight: 700; color: var(--ai-deep); }
-a{ color: inherit; }
+a{ color: inherit; text-decoration: none; }
 p{ margin: 0; }
 ul{ margin: 0; padding: 0; list-style: none; }
 button{ font-family: 'Baloo 2', sans-serif; }
@@ -142,7 +142,7 @@ header.site-nav{
 .nav-links{ display: flex; gap: 4px; }
 .nav-links a{
   display: inline-block; padding: 8px 16px; border-radius: 999px;
-  font-size: 0.86rem; font-weight: 600; color: var(--ink-soft);
+  font-size: 0.86rem; font-weight: 600; color: var(--ink-soft); text-decoration: none;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 .nav-links a:hover{ transform: translateY(-2px); }
@@ -295,7 +295,7 @@ section{ padding: 64px 0; }
 .work-fields .row b{ color: var(--ai-deep); font-weight: 700; }
 .work-link{
   display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; font-weight: 700;
-  color: var(--ai); border: 1.5px solid var(--wave); border-radius: 999px; padding: 7px 16px;
+  color: var(--ai); border: 1.5px solid var(--wave); border-radius: 999px; padding: 7px 16px; text-decoration: none;
   transition: background 0.25s ease, transform 0.25s ease;
 }
 .work-link:hover{ background: var(--mist); transform: translateY(-2px); }
