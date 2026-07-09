@@ -179,12 +179,9 @@ header.site-nav{
 .hero-frame{
   position: relative; width: 100%; aspect-ratio: 1/1; border-radius: var(--radius-lg);
   background: linear-gradient(150deg, var(--mist), var(--wave) 60%, var(--pink-soft));
-  border: 1px solid var(--line); box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
   display: flex; align-items: center; justify-content: center;
   overflow: hidden;
-}
-.hero-frame .sparkle{
-  position: absolute; font-size: 1.4rem; opacity: 0.85;
 }
 .hero-frame .frame-tag{
   position: absolute; bottom: 16px; left: 16px; right: 16px;
