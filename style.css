@@ -379,7 +379,7 @@ footer .seal-mini{ color: var(--ai); font-weight: 700; }
 .frame-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;  /* Lấp đầy khung */
+    object-fit: contain;  /* Lấp đầy khung */
     object-position: center; /* Căn giữa khuôn mặt trong ảnh */
     display: block;
 }
