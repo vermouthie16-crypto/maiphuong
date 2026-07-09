@@ -194,9 +194,6 @@ header.site-nav{
   background: rgba(255,255,255,0.88); border-radius: 999px; padding: 8px 16px;
   font-size: 0.74rem; font-weight: 700; color: var(--ai-deep); text-align: center;
 }
-.hero-frame::before{
-  content: ""; position: absolute; inset: 14px; border: 1px dashed rgba(31,154,214,0.4); border-radius: 16px;
-}
 
 /* ============ Section chung ============ */
 section{ padding: 64px 0; }
