@@ -377,6 +377,6 @@ hero-frame {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;  /* Giúp ảnh hiển thị chuẩn, không bị méo */
+    object-fit: contain;  /* Giúp ảnh hiển thị chuẩn, không bị méo */
     z-index: 1;         /* Đảm bảo ảnh nằm đúng lớp */
 }
