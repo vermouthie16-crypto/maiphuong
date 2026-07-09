@@ -354,3 +354,8 @@ footer .seal-mini{ color: var(--ai); font-weight: 700; }
   a[href]::after{ content: ""; }
   body{ background: var(--white); }
 }
+#gioi-thieu .intro-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
